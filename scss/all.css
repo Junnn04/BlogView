@@ -74,6 +74,7 @@ table {
 }
 .project-list ul li a img {
   width: 100%;
+  border-radius: 8px;
 }
 .project-list ul li a .list-detail {
   margin-left: 16px;
