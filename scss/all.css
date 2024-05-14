@@ -52,6 +52,16 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: Noto Sans;
+}
+body img {
+  display: block;
+}
+body a {
+  text-decoration: none;
+}
+
 .navbar {
   width: 1296px;
   margin: 0 auto;
@@ -73,11 +83,8 @@ table {
   text-align: center;
 }
 .navbar ul li a {
-  text-decoration: none;
   color: #000;
-  font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
 }
 .navbar ul li a:hover {
   font-weight: 600;
@@ -95,7 +102,6 @@ table {
   text-align: center;
   font-size: 24px;
   line-height: 28.8px;
-  font-weight: 400;
   color: #1E1E1E;
 }
 .header .header-content .icon-l {
@@ -115,7 +121,6 @@ table {
   text-align: center;
   margin-right: 40px;
   line-height: 24px;
-  font-size: 16px;
   font-weight: 400;
 }
 .header .header-content ul li h4 {
@@ -138,9 +143,6 @@ table {
   width: 48%;
   margin-right: 24px;
   margin-bottom: 80px;
-}
-.project-list ul li a {
-  text-decoration: none;
 }
 .project-list ul li a img {
   width: 100%;
@@ -167,7 +169,6 @@ table {
   width: 50%;
 }
 .project-list ul li a .list-detail .tag-list li {
-  font-size: 16px;
   margin-right: 10px;
   background: #F1F1F1;
   color: #3B3B3B;
@@ -192,7 +193,6 @@ table {
 }
 .pagination ul li a {
   display: inline-block;
-  text-decoration: none;
   font-size: 24px;
   line-height: 36px;
   padding: 0px 12px;
@@ -282,13 +282,11 @@ table {
 .footer .info .info-content p {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
   color: #3B3B3B;
 }
-.footer .info .info-content span {
+.footer .info .info-content a {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 400;
   color: #919191;
   display: block;
   padding-top: 24px;
